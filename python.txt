@@ -1,0 +1,42 @@
+python 
+
+1.variable(변수) 
+
+숫자먼저 오면 안됨 variable 앞에 ex) 334my_name
+
+variable 안에 공백이 있으면 안됨 ex) my name X
+
+1.snake case ex) my_name
+2.camel case ex) myName
+
+2. datatype
+
+my_name = "leechan" ====>string     ( ""로 감싸면 문자임
+)
+boolean= True or False          ex) my_name = True                         my_name = False
+True==1
+False==0
+
+4. function(함수)
+
+함수 정의하기
+def say_hello():
+     print("hello how r u? ")
+
+함수 시작하기
+print () 에서 ()가 시작버튼과 같음 
+print라는 함수에서 괄호 안에 있는 것을 실행해라라는 뜻임 
+
+5. 들여쓰기(indentation)
+
+들여쓰기를 해야 함수 안에 어떤 코드가 있는 지 컴퓨터가 알아먹음
+그렇기 때문에 함수 안에 코드를 넣어야 한다면 스페이스바 2번 or Tab 1번
+
+6.parameters 데이터를 저장하기 위한 그릇
+
+함수 정의할 때(플레이스 홀더== parameta)
+def function(parameta):
+     print("hello", parameta, "how are you?")
+
+함수 호출할 때(전달한 데이터==argument)
+function(argument)
